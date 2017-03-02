@@ -45,12 +45,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ListTitles.BackColor = System.Drawing.SystemColors.Window;
-            this.ListTitles.Font = new System.Drawing.Font("Inconsolata", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ListTitles.Font = new System.Drawing.Font("Inconsolata", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListTitles.FormattingEnabled = true;
-            this.ListTitles.ItemHeight = 11;
             this.ListTitles.Location = new System.Drawing.Point(12, 12);
             this.ListTitles.Name = "ListTitles";
-            this.ListTitles.Size = new System.Drawing.Size(371, 455);
+            this.ListTitles.Size = new System.Drawing.Size(371, 446);
             this.ListTitles.TabIndex = 0;
             // 
             // NumericStart
@@ -155,7 +154,7 @@
             this.DataBindings.Add(new System.Windows.Forms.Binding("Location", global::HTML_Parser.Properties.Settings.Default, "HabrParser", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.Location = global::HTML_Parser.Properties.Settings.Default.HabrParser;
             this.Name = "FormMain";
-            this.Text = "HabrParser";
+            this.Text = "Habrahabr Parser";
             this.TopMost = true;
             this.TransparencyKey = System.Drawing.Color.Yellow;
             ((System.ComponentModel.ISupportInitialize)(this.NumericStart)).EndInit();
